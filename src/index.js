@@ -69,7 +69,7 @@ class Numex {
       throw new Error("Numex API Key is required. Pass it via options or set NUMEX_API_KEY environment variable.");
     }
     
-    this.baseURL = options.baseURL || 'https://api.numexai.com.tr/v1';
+    this.baseURL = options.baseURL || 'https://www.numexai.com.tr/api/v1';
     this.client = new NumexApiClient(this.baseURL, this.apiKey);
 
     // CLI Bridge for programmatic CLI execution

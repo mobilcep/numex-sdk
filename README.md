@@ -48,7 +48,7 @@ const yanit = await numex.chat.completions.create({
   model: 'numex-pro',
   messages: [{ role: 'user', content: 'Merhaba! Kendini bir cümleyle tanıtır mısın?' }],
 });
-console.log(yanit);
+console.log(yanit.answer);   // { success, answer, modelLabel, usage }
 ```
 
 ## 🧠 API
@@ -63,6 +63,9 @@ console.log(yanit);
 
 **Modeller:** `numex-pro` (128K, function calling) · `numex-fast` (~3× hızlı) · `numex-think`
 (derin akıl yürütme) · `numex-vision` (görsel, OCR) · `numex-code` (64K, 25+ dil).
+
+Varsayılan adres: `https://www.numexai.com.tr/api/v1`. Uç noktaların tam listesi ve yanıt
+biçimleri: **[numex-api](https://github.com/mobilcep/numex-api)**.
 
 ```javascript
 // Farklı bir uç nokta kullanmak için:
