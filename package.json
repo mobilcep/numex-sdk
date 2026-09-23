@@ -1,0 +1,50 @@
+{
+  "name": "numexcodex-sdk",
+  "version": "1.1.0",
+  "description": "Official Node.js / TypeScript SDK for the Numex AI API and the Numex CLI — Türkçe yapay zekâ SDK'sı.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.mjs",
+      "require": "./src/index.js",
+      "types": "./src/index.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src/",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/test.js && node test/cli-integration.test.js && node test/agentic-e2e.test.js"
+  },
+  "keywords": [
+    "numex",
+    "numex-ai",
+    "ai",
+    "llm",
+    "sdk",
+    "api",
+    "cli",
+    "agent",
+    "turkish",
+    "turkce",
+    "yapay-zeka"
+  ],
+  "author": "Numex AI Bilişim Teknolojileri <destek@numexai.com.tr>",
+  "license": "MIT",
+  "homepage": "https://github.com/mobilcep/numex-sdk#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobilcep/numex-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mobilcep/numex-sdk/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
