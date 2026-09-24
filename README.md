@@ -7,7 +7,7 @@
 **Numex AI API'si ve Numex CLI için resmî Node.js / TypeScript kütüphanesi.**
 *Official Node.js / TypeScript library for the Numex AI API and the Numex CLI.*
 
-[![test](https://github.com/mobilcep/numex-sdk/actions/workflows/test.yml/badge.svg)](https://github.com/mobilcep/numex-sdk/actions/workflows/test.yml)
+[![test](https://github.com/numexai/numex-sdk/actions/workflows/test.yml/badge.svg)](https://github.com/numexai/numex-sdk/actions/workflows/test.yml)
 [![npm](https://img.shields.io/npm/v/numexcodex-sdk?color=00C9A7)](https://www.npmjs.com/package/numexcodex-sdk)
 [![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![node](https://img.shields.io/badge/node-%3E%3D18-339933)](package.json)
@@ -65,7 +65,7 @@ console.log(yanit.answer);   // { success, answer, modelLabel, usage }
 (derin akıl yürütme) · `numex-vision` (görsel, OCR) · `numex-code` (64K, 25+ dil).
 
 Varsayılan adres: `https://www.numexai.com.tr/api/v1`. Uç noktaların tam listesi ve yanıt
-biçimleri: **[numex-api](https://github.com/mobilcep/numex-api)**.
+biçimleri: **[numex-api](https://github.com/numexai/numex-api)**.
 
 ```javascript
 // Farklı bir uç nokta kullanmak için:
@@ -127,7 +127,7 @@ Bu SDK, aynı **Core — Beyin** üzerinde çalışan Numex ailesinin geliştiri
 📦 [Hub](https://hub.numexai.com.tr) · 🏗️ [Forge](https://forge.numexai.com.tr) ·
 📖 [Numexpedia](https://pedia.numexai.com.tr)
 
-Ekosistemin tamamı: **[github.com/mobilcep/numex_nedir](https://github.com/mobilcep/numex_nedir)**
+Ekosistemin tamamı: **[github.com/numexai/numex_nedir](https://github.com/numexai/numex_nedir)**
 
 ---
 
@@ -156,7 +156,7 @@ const res = await numex.chat.completions.create({
 - CommonJS + ESM, TypeScript types included, Node 18+.
 
 Get an API key (100,000 free tokens) at [numexai.com.tr](https://numexai.com.tr).
-Full ecosystem overview: [numex_nedir](https://github.com/mobilcep/numex_nedir/blob/main/README.en.md).
+Full ecosystem overview: [numex_nedir](https://github.com/numexai/numex_nedir/blob/main/README.en.md).
 
 ## 📄 Lisans
 

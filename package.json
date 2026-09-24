@@ -36,13 +36,13 @@
   ],
   "author": "Numex AI Bilişim Teknolojileri <destek@numexai.com.tr>",
   "license": "MIT",
-  "homepage": "https://github.com/mobilcep/numex-sdk#readme",
+  "homepage": "https://github.com/numexai/numex-sdk#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mobilcep/numex-sdk.git"
+    "url": "git+https://github.com/numexai/numex-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/mobilcep/numex-sdk/issues"
+    "url": "https://github.com/numexai/numex-sdk/issues"
   },
   "engines": {
     "node": ">=18"
